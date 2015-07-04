@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.stagemonitor:stagemonitor-web:$stagemonitorVersion"
+}
+
+task copyLibs(type: Copy, dependsOn: clean) {
+    into "build"
+    from configurations.compile
+}
