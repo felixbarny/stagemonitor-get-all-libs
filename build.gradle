@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-    compile "org.stagemonitor:stagemonitor-web:$stagemonitorVersion"
+    compile "org.stagemonitor:stagemonitor-web-servlet:$stagemonitorVersion"
 }
 
 task copyLibs(type: Copy, dependsOn: clean) {
