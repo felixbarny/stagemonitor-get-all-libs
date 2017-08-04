@@ -6,7 +6,7 @@ cd stagemonitor-get-all-libs
 ./gradlew copyLibs -PstagemonitorVersion=<version>
 ```
 
-Replace \<version\> with the stagemonitor version you want to use.
+Replace \<version\> with the stagemonitor version you want to use.  Version numbers can be found [here](https://github.com/stagemonitor/stagemonitor/releases).
 
 All the libs are in the `build` folder
 
